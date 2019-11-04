@@ -1,0 +1,25 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "unit tests with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonnyalexbh/testing-with-jest.git"
+  },
+  "keywords": [],
+  "author": "jonnyalexbh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonnyalexbh/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/jonnyalexbh/testing-with-jest#readme",
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^24.9.0"
+  }
+}
