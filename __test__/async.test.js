@@ -11,4 +11,16 @@ describe('try Async / Await', () => {
       expect(data.name).toEqual('Rick Sanchez');
     });
   });
-});
+
+  test('making a request to an api with error', async () => {
+    const apiError = 'http://httpstat.us/500';
+    const peticion = getDataFromApi(apiError);
+    await expect(peticion).rejects.toEqual(Error('Request failed with status code 500'));
+  });
+
+  test('solve a hello', async () => {
+    await expect(Promise.resolve('Hola')).resolves.toBe('Hola');
+    await expect(Promise.reject('Error')).rejects.toBe('Error');
+  });
+
+}); 
