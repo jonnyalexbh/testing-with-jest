@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/jonnyalexbh/testing-with-jest#readme",
   "devDependencies": {
-    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-env": "^7.9.6",
     "babel-jest": "^24.9.0",
     "babel-polyfill": "^6.26.0",
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "axios": "^0.19.0"
+    "axios": "^0.19.2"
   }
 }
